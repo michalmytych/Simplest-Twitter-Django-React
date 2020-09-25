@@ -1,6 +1,8 @@
 # Simplest-Twitter-Django-React
 Bardzo prosta aplikacja którą napisałem na początku nauki integracji back-endu Django oraz front-endu React.
 
+![Zrzut ekranu z 2020-09-25 12-58-24](https://user-images.githubusercontent.com/59512535/94259576-fb6ca000-ff2e-11ea-83ae-2955e050bf4a.png)
+
 ## Jak uruchomić aplikację Django:
 
 _Wymagany Python 3, Pip oraz wolny port 8000_
