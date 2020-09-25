@@ -132,5 +132,6 @@ dmypy.json
 /backend/venv/
 /backend/db.sqlite3
 *.sqlite3
+frontend/simplest-frontend-app/node_modules/
 
 
