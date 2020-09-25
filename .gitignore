@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# My specific
+/backend/venv/
+/backend/db.sqlite3
+*.sqlite3
+
+

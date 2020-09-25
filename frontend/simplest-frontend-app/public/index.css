@@ -1,0 +1,119 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+body, a{
+    background-color: rgb(24, 37, 31);
+    color: rgba(255, 255, 255, 0.72);
+    text-decoration: none;
+}
+
+.italic-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 0.76rem;
+}
+
+.tweets-container,  nav{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.tweets-container{
+    width: 49%;
+    padding: 2rem;
+}
+
+.simplest-twitter, h1{
+    font-size: 1.13rem;
+    display: inline-block;
+}
+
+.logo{
+    display: inline-block;
+    max-width: 72px;
+    vertical-align: -28px;
+}
+
+.nickname-input, .tweet-input, .submit-btn{
+    border-radius: 10px;
+    border-style: none;
+    padding: 0.2rem;
+}
+
+.nickname-input, .tweet-input{
+    width: 94%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.15);
+    transition: 0.35s;
+}
+
+.nickname-input:hover, .tweet-input:hover{
+    background-color: rgba(255, 255, 255, 0.30);
+}
+
+.tweet-input{
+    margin-bottom: 0.7rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.submit-btn{
+    color: white;
+    background-color: rgb(130, 170, 51);
+    padding: 0.4rem 1.3rem 0.4rem 1.3rem;
+    float: right;
+    margin-right: 1.8rem;
+}
+
+.submit-btn:hover{
+    color: rgb(130, 170, 51);
+    background-color: rgba(130, 170, 51, 0.2);
+    transition: 0.35s;
+}
+
+.submit-btn:active{
+    color: rgb(15, 22, 2);
+    background-color: rgb(210, 245, 140);
+}
+
+.submit-btn:focus, .nickname-input:focus, .tweet-input:focus{
+    outline: 0 !important;
+}
+
+.input-des{
+    font-size: 0.5rem;
+}
+
+form{
+    padding-bottom: 3rem;
+}
+
+.tweet-card{
+    width: 92%;
+    border-radius: 10px;
+    border: solid 2px rgba(162, 201, 158, 0.2);
+    padding: 0.1rem 0.4rem 0.1rem 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.tweet-content-text{
+    display: block;
+    width: 70%;
+}
+
+
+@media (max-width: 900px) {
+    .tweets-container,  nav{
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .tweets-container{
+        width: 94%;
+        padding: 2rem;
+    }
+  }
