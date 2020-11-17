@@ -133,5 +133,8 @@ dmypy.json
 /backend/db.sqlite3
 *.sqlite3
 frontend/simplest-frontend-app/node_modules/
+secrets.py
+/node_modules
+node_modules/
 
 

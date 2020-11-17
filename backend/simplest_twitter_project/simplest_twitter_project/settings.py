@@ -1,8 +1,15 @@
 from pathlib import Path
+from simplest_twitter_project import secrets
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = '6ah-c2@#e!q@f^f3+pba^=+x9e!oo#!x(oszjs@h59s(-l*ljt'
+if secrets.DJANGO_SECRET_KEY:
+    generated_key = secrets.DJANGO_SECRET_KEY
+else:
+    print("SECRET DJANGO KEY not defined. This will cause problems further on.")
+
+SECRET_KEY = generated_key
 
 DEBUG = True
 
